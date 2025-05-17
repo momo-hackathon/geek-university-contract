@@ -11,6 +11,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
  * @dev Geek University的ERC20代币实现
  * 代币用于课程购买和平台内激励机制
  */
+// Author: @senmu
 contract GeekToken is ERC20, Ownable {
     // 定义 ETH 兑换 Geek 的比率：1 ETH = 1000 Geek
     uint256 public constant TOKENS_PER_ETH = 1000;
